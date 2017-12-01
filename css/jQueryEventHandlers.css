@@ -8,6 +8,10 @@ h1 {
 	left: 100%;
 }
 
+.active-input {
+	background-color: #A0FDA0;
+}
+
 .help-text{
 	color: #2184CD;
 	font-size: 0.9em;

@@ -6,4 +6,8 @@ $(document).ready(function(){
 	$('.help-text').click(function(){
 		$('.help-text').text('This is a form. Please fill it out. Simple as that.');
 	});
+	
+	$('input').focusin(function(){
+		$('input').addClass('active-input');
+	});
 });
